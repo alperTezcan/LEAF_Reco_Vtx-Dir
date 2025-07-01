@@ -1,0 +1,71 @@
+# === Custom Rules ===
+*.root
+*.o
+*.swp
+.depend
+LEAF/leaf/DataModelRootDict*
+LEAFleaf/HKAstroAnalysis.*
+LEAF/leaf/DataModel
+LEAF/lib/*
+
+# === C/C++ Compilation Residues ===
+*.a
+*.out
+*.obj
+*.exe
+*.gch
+*.so
+*.dll
+*.dSYM/
+*.dep
+*.mod
+*.bin
+*.elf
+*.map
+*.log
+
+# === Editor/Backup Residues ===
+*~
+*.bak
+*.tmp
+*.old
+*.save
+*.orig
+
+# === LaTeX Residues ===
+*.aux
+*.bbl
+*.blg
+*.brf
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.dvi
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# === Python Residues ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+.env
+.venv/
+*.ipynb_checkpoints/
+
+# === VSCode Residues ===
+.vscode/
+*.code-workspace
